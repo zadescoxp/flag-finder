@@ -46,13 +46,13 @@ export default function Home() {
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center text-sm font-medium">
                   1
                 </span>
-                <span className="text-lg">Click on the Get Flag button</span>
+                <span className="text-lg">Click on what you want</span>
               </li>
               <li className="flex items-start space-x-3">
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center text-sm font-medium">
                   2
                 </span>
-                <span className="text-lg">Network detective work (inspect the page and check for responses)</span>
+                <span className="text-lg">Network detective work (inspect)</span>
               </li>
               <li className="flex items-start space-x-3">
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center text-sm font-medium">
@@ -78,7 +78,25 @@ export default function Home() {
           {/* Get Flag Button */}
           <div className="pt-8">
             <button
+
+              className="group relative px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium text-lg transition-all duration-200 hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-700 active:scale-95"
+            >
+              <span className="relative z-10">Get Flag</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 -z-10"></div>
+            </button><button
+
+              className="group relative px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium text-lg transition-all duration-200 hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-700 active:scale-95"
+            >
+              <span className="relative z-10">Get Flag</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 -z-10"></div>
+            </button><button
               onClick={handleClick}
+              className="group relative px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium text-lg transition-all duration-200 hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-700 active:scale-95"
+            >
+              <span className="relative z-10">Get Flag</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 -z-10"></div>
+            </button><button
+
               className="group relative px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium text-lg transition-all duration-200 hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-700 active:scale-95"
             >
               <span className="relative z-10">Get Flag</span>
